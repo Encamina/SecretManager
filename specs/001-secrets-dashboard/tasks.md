@@ -28,10 +28,10 @@ description: "Task list for Secrets Management Dashboard implementation"
 
 **Purpose**: Initialize the repository structure for the backend API, backend domain library, infrastructure adapters, and React frontend.
 
-- [ ] T001 Create the backend and frontend solution structure in `backend/src/`, `backend/tests/`, `frontend/src/`, and `frontend/tests/`
-- [ ] T002 Initialize the Azure Functions isolated worker solution files in `backend/src/SecretManager.SecretsDashboard.Api/SecretManager.SecretsDashboard.Api.csproj`, `backend/src/SecretManager.SecretsDashboard.Domain/SecretManager.SecretsDashboard.Domain.csproj`, and `backend/src/SecretManager.SecretsDashboard.Infrastructure/SecretManager.SecretsDashboard.Infrastructure.csproj`
-- [ ] T003 [P] Initialize the React + TypeScript frontend project in `frontend/package.json`, `frontend/tsconfig.json`, and `frontend/src/main.tsx`
-- [ ] T004 [P] Configure baseline test projects and frontend test tooling in `backend/tests/SecretManager.SecretsDashboard.Domain.Tests/SecretManager.SecretsDashboard.Domain.Tests.csproj`, `backend/tests/SecretManager.SecretsDashboard.Api.Tests/SecretManager.SecretsDashboard.Api.Tests.csproj`, `frontend/jest.config.ts`, and `frontend/src/test/setupTests.ts`
+- [x] T001 Create the backend and frontend solution structure in `backend/src/`, `backend/tests/`, `frontend/src/`, and `frontend/tests/`
+- [x] T002 Initialize the Azure Functions isolated worker solution files in `backend/src/SecretManager.SecretsDashboard.Api/SecretManager.SecretsDashboard.Api.csproj`, `backend/src/SecretManager.SecretsDashboard.Domain/SecretManager.SecretsDashboard.Domain.csproj`, and `backend/src/SecretManager.SecretsDashboard.Infrastructure/SecretManager.SecretsDashboard.Infrastructure.csproj`
+- [x] T003 [P] Initialize the React + TypeScript frontend project in `frontend/package.json`, `frontend/tsconfig.json`, and `frontend/src/main.tsx`
+- [x] T004 [P] Configure baseline test projects and frontend test tooling in `backend/tests/SecretManager.SecretsDashboard.Domain.Tests/SecretManager.SecretsDashboard.Domain.Tests.csproj`, `backend/tests/SecretManager.SecretsDashboard.Api.Tests/SecretManager.SecretsDashboard.Api.Tests.csproj`, `frontend/jest.config.ts`, and `frontend/src/test/setupTests.ts`
 
 ---
 
