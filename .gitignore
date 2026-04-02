@@ -414,6 +414,7 @@ FodyWeavers.xsd
 dist/
 build/
 coverage/
+*.tsbuildinfo
 .env*
 
 # Windows Installer files from build outputs
@@ -422,3 +423,6 @@ coverage/
 *.msix
 *.msm
 *.msp
+
+# Session-local solution file
+overslack-ola.sln

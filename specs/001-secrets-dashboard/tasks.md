@@ -41,14 +41,14 @@ description: "Task list for Secrets Management Dashboard implementation"
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete.
 
-- [ ] T005 Define domain contracts for secret storage, metadata storage, access control, and audit recording in `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/ISecretStore.cs`, `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/IMetadataCatalog.cs`, `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/IAccessPolicy.cs`, and `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/IAuditEventRecorder.cs`
-- [ ] T006 [P] Create core domain models for access context and shared secret metadata in `backend/src/SecretManager.SecretsDashboard.Domain/Models/AccessContext.cs`, `backend/src/SecretManager.SecretsDashboard.Domain/Models/SecretIdentifier.cs`, and `backend/src/SecretManager.SecretsDashboard.Domain/Models/AuditEvent.cs`
-- [ ] T007 [P] Implement Azure Key Vault secret-store adapter in `backend/src/SecretManager.SecretsDashboard.Infrastructure/Secrets/KeyVaultSecretStore.cs`
-- [ ] T008 [P] Implement Azure Table Storage metadata adapters in `backend/src/SecretManager.SecretsDashboard.Infrastructure/Metadata/TableProjectCatalog.cs`, `backend/src/SecretManager.SecretsDashboard.Infrastructure/Metadata/TableServiceCatalog.cs`, and `backend/src/SecretManager.SecretsDashboard.Infrastructure/Metadata/TableEnvironmentCatalog.cs`
-- [ ] T009 [P] Configure Microsoft Entra ID token validation and role-based authorization in `backend/src/SecretManager.SecretsDashboard.Api/Program.cs`, `backend/src/SecretManager.SecretsDashboard.Api/Auth/EntraAuthorizationExtensions.cs`, and `backend/src/SecretManager.SecretsDashboard.Api/Auth/RequiredRoles.cs`
-- [ ] T010 [P] Configure Application Insights audit/event recording in `backend/src/SecretManager.SecretsDashboard.Infrastructure/Telemetry/ApplicationInsightsAuditEventRecorder.cs`
-- [ ] T011 Implement the domain orchestration service shell in `backend/src/SecretManager.SecretsDashboard.Domain/Services/SecretsDashboardService.cs`
-- [ ] T012 [P] Add shared frontend authentication and API client setup in `frontend/src/app/providers/AuthProvider.tsx`, `frontend/src/services/http/apiClient.ts`, and `frontend/src/services/auth/msalConfig.ts`
+- [x] T005 Define domain contracts for secret storage, metadata storage, access control, and audit recording in `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/ISecretStore.cs`, `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/IMetadataCatalog.cs`, `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/IAccessPolicy.cs`, and `backend/src/SecretManager.SecretsDashboard.Domain/Abstractions/IAuditEventRecorder.cs`
+- [x] T006 [P] Create core domain models for access context and shared secret metadata in `backend/src/SecretManager.SecretsDashboard.Domain/Models/AccessContext.cs`, `backend/src/SecretManager.SecretsDashboard.Domain/Models/SecretIdentifier.cs`, and `backend/src/SecretManager.SecretsDashboard.Domain/Models/AuditEvent.cs`
+- [x] T007 [P] Implement Azure Key Vault secret-store adapter in `backend/src/SecretManager.SecretsDashboard.Infrastructure/Secrets/KeyVaultSecretStore.cs`
+- [x] T008 [P] Implement Azure Table Storage metadata adapters in `backend/src/SecretManager.SecretsDashboard.Infrastructure/Metadata/TableProjectCatalog.cs`, `backend/src/SecretManager.SecretsDashboard.Infrastructure/Metadata/TableServiceCatalog.cs`, and `backend/src/SecretManager.SecretsDashboard.Infrastructure/Metadata/TableEnvironmentCatalog.cs`
+- [x] T009 [P] Configure Microsoft Entra ID token validation and role-based authorization in `backend/src/SecretManager.SecretsDashboard.Api/Program.cs`, `backend/src/SecretManager.SecretsDashboard.Api/Auth/EntraAuthorizationExtensions.cs`, and `backend/src/SecretManager.SecretsDashboard.Api/Auth/RequiredRoles.cs`
+- [x] T010 [P] Configure Application Insights audit/event recording in `backend/src/SecretManager.SecretsDashboard.Infrastructure/Telemetry/ApplicationInsightsAuditEventRecorder.cs`
+- [x] T011 Implement the domain orchestration service shell in `backend/src/SecretManager.SecretsDashboard.Domain/Services/SecretsDashboardService.cs`
+- [x] T012 [P] Add shared frontend authentication and API client setup in `frontend/src/app/providers/AuthProvider.tsx`, `frontend/src/services/http/apiClient.ts`, and `frontend/src/services/auth/msalConfig.ts`
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel.
 
