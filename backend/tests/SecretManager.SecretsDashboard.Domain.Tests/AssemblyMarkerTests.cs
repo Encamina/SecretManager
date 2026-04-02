@@ -1,4 +1,5 @@
 using SecretManager.SecretsDashboard.Domain;
+using Xunit;
 
 namespace SecretManager.SecretsDashboard.Domain.Tests;
 

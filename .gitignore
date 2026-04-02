@@ -414,6 +414,7 @@ FodyWeavers.xsd
 dist/
 build/
 coverage/
+*.tsbuildinfo
 .env*
 
 # Windows Installer files from build outputs

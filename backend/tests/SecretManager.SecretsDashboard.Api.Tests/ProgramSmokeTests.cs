@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace SecretManager.SecretsDashboard.Api.Tests;
 
 public class ProgramSmokeTests
