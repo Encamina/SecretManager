@@ -423,3 +423,6 @@ coverage/
 *.msix
 *.msm
 *.msp
+
+# Session-local solution file
+overslack-ola.sln
